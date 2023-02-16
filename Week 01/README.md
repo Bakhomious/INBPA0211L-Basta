@@ -248,17 +248,3 @@ main() {
    printf("Value of mean : %f\n", mean );
 }
 ```
-
----
-
-## Homework for the week
-
-Solve the following:
-
-- [PC200783](https://github.com/INBPA0212L-2023/exercises/blob/main/week-01/PC200783.md)
-- [PC200785](https://github.com/INBPA0212L-2023/exercises/blob/main/week-01/PC200785.md)
-- [PC200790](https://github.com/INBPA0212L-2023/exercises/blob/main/week-01/PC200790.md)
-
-Method of Submission:
-
-TO BE DISCUSSED
