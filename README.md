@@ -8,7 +8,7 @@ Each Week contains a quick overview of what we have discussed.
 
 ### Submission
 
-You can use the following [form](https://forms.gle/vtMBJi1QwpN2NgFp8) to submit your codes. Deadline is always **Wednesday at 11:55 AM** for each week. Please submit these homeworks on a weekly basis. I will review your codes and give points and feedback based on that. 
+You can use the following [form](https://forms.gle/vtMBJi1QwpN2NgFp8) to submit your codes. Deadline is always **Wednesday at 11:59 PM** for each week. Please submit these homeworks on a weekly basis. I will review your codes and give points and feedback based on that. 
 
 ---
 
