@@ -2,7 +2,7 @@
 
 ## Arrays
 
-Generally speaking we can define arrays in the following way *based on [Data Structures and Algorithms course](https://bakhomious.notion.site/Data-Structures-and-Algorithms-6cb7d1da236c4091bca28bdcf3168f88)*:
+Generally speaking we can define arrays in the following way *based on [Data Structures and Algorithms course](https:omious.notion.site/Data-Structures-and-Algorithms-6cb7d1da236c4091bca28bdcf3168f88)*:
 
 - Consists of a fixed number of elements, each identified by a sequence of integers.
 - One dimensional array is called **vector**, and its elements are identified by "index"
@@ -14,7 +14,10 @@ Generally speaking we can define arrays in the following way *based on [Data Str
   - Static *(Fixed-Size)*
   - Continuously represented
 
-![Array Representation](https://www.tutorialspoint.com/cprogramming/images/arrays.jpg)
+<p align="center">
+  <img src="https://www.tutorialspoint.com/cprogramming/images/arrays.jpg" />
+</p>
+
 
 ### Declarying Arrays
 
