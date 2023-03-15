@@ -7,7 +7,7 @@ int main()
     char s[50];
     printf("Input a string: ");
 
-    fgets(s, 50, stdin);
+    fgets(s, sizeof(s), stdin);
 
     int i, digits = 0, letters = 0, punct = 0, spaces = 0, others = 0;
     for (i = 0; i < strlen(s) - 1; i++)
