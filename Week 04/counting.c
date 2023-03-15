@@ -73,13 +73,13 @@ int count_of_local_minimums(int* numbers, int length) {
 int main() {
 
     int cases, length;
-    int numbers[length];
 
     scanf("%d", &cases);
 
     for(int i = 0; i < cases; i++) {
 
         scanf("%d", &length);
+        int numbers[length];
         for(int j = 0; j < length; j++) {
             scanf("%d", &numbers[j]);
         }
