@@ -158,7 +158,7 @@ Alternatively we can use `calloc(200, sizeof(char));` instead of `malloc()`
 
 ### Resizing and Releasing Memory
 
-The previous program will cause what we call a **Memory Leak**. A useful tool to check for memory leaks is [valgrind](https://valgrind.org/). *Please note, this tool is not available on windows. However, some IDEs like [CLion](https://www.jetbrains.com/clion/) and [Visual Studio(https://visualstudio.microsoft.com/)] has their own implementations of memory management tools.*
+The previous program will cause what we call a **Memory Leak**. A useful tool to check for memory leaks is [valgrind](https://valgrind.org/). *Please note, this tool is not available on windows. However, some IDEs like [CLion](https://www.jetbrains.com/clion/) and [Visual Studio](https://visualstudio.microsoft.com/) has their own implementations of memory management tools.*
 
 Lets see valgrind's output to the terminal.
 
