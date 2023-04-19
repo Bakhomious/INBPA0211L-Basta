@@ -264,5 +264,5 @@ Aborted
 You can find those functions in the [C reference](https://arato.inf.unideb.hu/panovics.janos/stdc.pdf) sheet.
 
 <p align="center">
-    <img src= "ctype.png"/>
+    <img src= "images/ctype.png"/>
 </p>
