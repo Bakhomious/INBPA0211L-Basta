@@ -10,9 +10,9 @@ typedef struct Airports
     int time;
 } AIRPORT;
 
-void print_array(AIRPORT *airports)
+void print_array(AIRPORT *airports, int n)
 {
-    for (int i = 0; i < sizeof(airports); i++)
+    for (int i = 0; i < n; i++)
     {
         printf("%s (%s): %d\n", airports[i].name,
             airports[i].city, airports[i].time);
@@ -63,12 +63,12 @@ int main()
         airports[i].time = atoi(time);
     }
     printf("Before Sort: \n");
-    print_array(airports);
+    print_array(airports, n);
 
     qsort(airports, n, sizeof(AIRPORT), cmp);
     
     printf("======= \nAfter Sort: \n");
-    print_array(airports);
+    print_array(airports, n);
 
     return EXIT_SUCCESS;
 }
