@@ -287,3 +287,53 @@ int main() {
     qsort(airports, n, sizeof(AIRPORT), cmp);
 }
 ```
+
+---
+
+## `bsearch()`
+
+Uses Binary Search to search an array for a specific value
+
+```C
+void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int (*compar)(const void *, const void *))
+```
+
+### Parameters
+
+- **key** − This is the pointer to the object that serves as key for the search, type-casted as a void*.
+- **base** − This is the pointer to the first object of the array where the search is performed, type-casted as a void*.
+- **nitems** − This is the number of elements in the array pointed by base.
+- **size** − This is the size in bytes of each element in the array.
+- **compare** − This is the function that compares two elements.
+
+This function returns a pointer to an entry in the array that matches the search key. If key is not found, a NULL pointer is returned.
+
+### Example
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int values[] = {5, 20, 29, 32, 63, 40, 90};
+
+int cmp (const void *a, const void *b) {
+    return ( *(int *)a - *(int *)b);
+}
+
+int main() {
+    int *item;
+    int key = 99;
+
+    item = (int *) bsearch(&key, values, 7, sizeof(int), cmp);
+
+    if (item != NULL) {
+        printf("Founded %d\n", *item);
+    } else {
+        printf("Item couldn't be found\n");
+    }
+
+    return EXIT_SUCCESS;
+
+}
+```
